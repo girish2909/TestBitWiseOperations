@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c99c2c57-3923-48ca-a01e-2c98b7a7753f" name="Changes" comment="commit it" />
+    <list default="true" id="c99c2c57-3923-48ca-a01e-2c98b7a7753f" name="Changes" comment="commit it">
+      <change afterPath="$PROJECT_DIR$/src/com/examples/BitwiseShiftOperation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestBitWiseOperations.iml" beforeDir="false" afterPath="$PROJECT_DIR$/TestBitWiseOperations.iml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,9 +24,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2ZZYrzlOgKt4jvc2DtVeiRMfw7C" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -33,6 +37,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.AndOperation.executor": "Run",
+    "Application.BitwiseLeftShiftOperation.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.NegateOperation.executor": "Run",
     "Application.OR_Operation.executor": "Run",
@@ -41,7 +46,11 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true"
+    "kotlin-language-version-configured": "true",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.keymap"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -49,7 +58,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.NegateOperation">
+  <component name="RunManager" selected="Application.BitwiseShiftOperation">
     <configuration name="AndOperation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.examples.AndOperation" />
       <module name="TestBitWiseOperations" />
@@ -63,19 +72,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="TestBitWiseOperations" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NegateOperation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.examples.NegateOperation" />
+    <configuration name="BitwiseShiftOperation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.com.examples.BitwiseShiftOperation" />
       <module name="TestBitWiseOperations" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.examples.*" />
+          <option name="PATTERN" value="src.com.examples.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -83,8 +85,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OR_Operation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.examples.OR_Operation" />
+    <configuration name="NegateOperation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.examples.NegateOperation" />
       <module name="TestBitWiseOperations" />
       <extension name="coverage">
         <pattern>
@@ -111,13 +113,19 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.NegateOperation" />
+        <item itemvalue="Application.BitwiseShiftOperation" />
         <item itemvalue="Application.XOROperation" />
-        <item itemvalue="Application.OR_Operation" />
+        <item itemvalue="Application.NegateOperation" />
         <item itemvalue="Application.AndOperation" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-17.0.9-corretto-17.0.9-249ae16d76d6-af57353a" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -136,7 +144,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702657329739</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="commit it">
+      <option name="closed" value="true" />
+      <created>1702657687746</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1702657687746</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -144,7 +160,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -161,6 +189,15 @@
           <url>file://$PROJECT_DIR$/src/com/examples/OR_Operation.java</url>
           <line>5</line>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/com/examples/BitwiseShiftOperation.java</url>
+          <line>5</line>
+          <properties class="src.com.examples.BitwiseShiftOperation" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
